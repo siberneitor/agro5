@@ -44,7 +44,9 @@ function buscarcod($cod){
 
 }
 
-function enviarV($as,$bs,$cs,$ds,$es,$fs){
+
+//funcion que agrega producto
+function agregarProducto($as,$bs,$cs,$ds,$es,$fs){
 	 cadena={
 		txt1:$as,
 		txt2:$bs,
@@ -85,7 +87,7 @@ function enviarV($as,$bs,$cs,$ds,$es,$fs){
 }
 
 
-function enviarVT($as,$bs,$cs){
+function agregarProductoT($as,$bs,$cs){
 	
 	 cadena={
 		txt1:$as,
