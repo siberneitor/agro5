@@ -64,7 +64,7 @@ function enviarV($as,$bs,$cs,$ds,$es,$fs){
 				alert('error al insertar');
 			}else{
 				$('.divR').load('tabla1.php');
-				alert("insertado correctamente");
+				alert("insertado correctamente 1");
 			}
 		},
 		error:function(jqXHR,estado,error){

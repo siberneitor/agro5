@@ -26,12 +26,16 @@ include 'header.html';
 	<form id="form2"  method="post" accept-charset="utf-8" class="form-horizontal">
 		<label><H2>punto de venta</H2></label>
 		<P>
+        <div class="row">
 		<label for="ttcodigo">codigo</label>
 		<input type="text" class="tcodigo" name="txtcodigo" id="ttcodigo" placeholder="codigo"autofocus>
+        <label for="ttcodigo">unidades: </label>
+        <input type="text" class="" name="txtunidad" id="txtunidad" placeholder="unidades"autofocus value ="1">
 		&nbsp;&nbsp;&nbsp;&nbsp;
 		<label for="tcliente"> no cliente:</label>
 		<input type="text" class="tcliente" name="txtcliente" id="tcliente" placeholder="cliente">
 		<label id="nocli"></label>
+    </div>
 		<p>
 		<input type="text" class="td1" name="tdato1" hidden>
 		<input type="text" class="td2" name="tdato2" hidden>

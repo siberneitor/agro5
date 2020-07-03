@@ -17,6 +17,7 @@ include 'header.html';
 	</script>
 </head>
 <body>
+<label>PRODUCTOS</label>
 	<p>
 	<form id="form1"  method="post" accept-charset="utf-8" class="form-horizontal">
 		<div class="form-group">
