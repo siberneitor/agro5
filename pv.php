@@ -21,7 +21,7 @@ include 'header.html';
 <script src="librerias/select2/js/select2.js"></script>
 </head>
 <body>
-	<a href="f1.html">agregar producto</a>
+
 	<p>
 	<form id="form2"  method="post" accept-charset="utf-8" class="form-horizontal">
 		<label><H2>punto de venta</H2></label>
