@@ -24,7 +24,7 @@ include 'header.html';
 
 	<p>
 	<form id="form2"  method="post" accept-charset="utf-8" class="form-horizontal">
-		<label><H2>punto de ventaY</H2></label>
+		<label><H2>punto de venta</H2></label>
 		<P>
 		<label for="ttcodigo">codigo</label>
 		<input type="text" class="tcodigo" name="txtcodigo" id="ttcodigo" placeholder="codigo"autofocus>
