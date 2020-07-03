@@ -87,7 +87,7 @@ function agregarProducto($as,$bs,$cs,$ds,$es,$fs){
 }
 
 
-function agregarProductoT($as,$bs,$cs){
+function enviarVT($as,$bs,$cs){
 	
 	 cadena={
 		txt1:$as,
