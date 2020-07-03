@@ -17,7 +17,6 @@ include 'header.html';
 	</script>
 </head>
 <body>
-	<a href="pv.html">punto de venta</a>
 	<p>
 	<form id="form1"  method="post" accept-charset="utf-8" class="form-horizontal">
 		<div class="form-group">
