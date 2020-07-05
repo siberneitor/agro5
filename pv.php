@@ -115,7 +115,7 @@ include 'header.html';
     </div>
 </div>
 <!--fin modal------------------------------------------------------------------------->
-<script src = "selectoresJS.js"; ></script>
+<script src = "/js/selectoresJS.js"; ></script>
 
 </body>
 
