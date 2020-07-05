@@ -87,12 +87,14 @@ function agregarProducto($as,$bs,$cs,$ds,$es,$fs){
 }
 
 
+//inserta en tabla temporal en el punto de venta
 function enviarVT($as,$bs,$cs){
 	
 	 cadena={
 		txt1:$as,
 		txt2:$bs,
-		txt3:$cs
+		txt3:$cs,
+		 txt4:$unidades
 	}
 
 	$.ajax({

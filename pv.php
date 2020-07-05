@@ -9,9 +9,6 @@ include 'header.html';
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
-	<script src="jquery-3.2.1.min.js"></script>
-	<script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
 	<script src="f2.js"></script>
 	<script>
 		
@@ -118,70 +115,9 @@ include 'header.html';
     </div>
 </div>
 <!--fin modal------------------------------------------------------------------------->
+<script src = "selectoresJS.js"; ></script>
 
-<script>
-	$(document).ready(function(){
-		n=0;
-		n2=0;
-		num1=1;
-		NNN=0;
-
-	//evento a realizar al presionar "enter" en el campo de ingreso de codigo
-	//
-			$('#tcliente').keypress(function(E){
-				
-
-				if(E.which == 13) {
-					
-					
-					txtcl=$('#tcliente').val();
-					buscarcliente(txtcl);
-					
-				}
-			});
-
-			$('.tcodigo').keydown(function(e) {
-				
-				if(e.which == 120) {
-					//ventanacobrar();
-					//alert('estas presionando la tecla');
-					$('#btncobrar').click();
-					$('#txtcambio').focus();
-			
-				}
-
-       			if(e.which == 13) {
-					uno=$('.tcodigo').val();	
-					dos=$('.text2').val();
-					tres=$('.text3').val();
-					numdos=parseInt(dos);
-					buscarcod(uno);
-
-				}
-		
-				
-		});
-		
-		
-		$('#btnadd').click(function(){
-		})
-
-
-		$('#btncobrar').click(function(){
-			ventanacobrar();
-		})			
-
-
-
-		$('#btnborrar').click(function(){
-			borrar();
-		});
-		$('#btnbdin').click(function(){
-		$('#buscador').load('componentes/buscador.php');
-		});
-	})		
-	
-</script>
 </body>
+
 
 </html>
